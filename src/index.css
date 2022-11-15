@@ -5,12 +5,52 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
+
   background-image: url("../public/bg-cake.png");
-  
+
+}
+
+p {
+  color: black;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.App {
+  display: grid;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: rgb(225, 231, 237, 0.75);
+  height: 100%;
+  grid-template-areas:
+    'h h'
+    'n n'
+    'c c'
+  ;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px 100px 1fr;
+}
+
+
+
+.Content {
+  grid-area: c;
+  display: grid;
+  grid-row: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.NavBar {
+  grid-area: n;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.Header {
+
+  grid-area: h;
 }

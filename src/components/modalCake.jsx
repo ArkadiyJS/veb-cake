@@ -13,14 +13,16 @@ function ModalCake(props) {
     >
       <Modal.Header closeButton>
         <Modal.Title id="contained-modal-title-vcenter">
-          
+
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
+
         <CarouselCake />
+
       </Modal.Body>
       <Modal.Footer>
-        <Button onClick={props.onHide}>Close</Button>
+        <Button onClick={props.onHide}>Закрыть</Button>
       </Modal.Footer>
     </Modal>
   );

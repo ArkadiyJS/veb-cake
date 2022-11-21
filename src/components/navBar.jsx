@@ -1,33 +1,19 @@
 import React from 'react';
-import Nav from 'react-bootstrap/Nav'
 
+import Button from 'react-bootstrap/Button';
 function NavBar(props) {
   return (
     <>
-      <Nav justify variant="tabs" defaultActiveKey="link-0">
-        <Nav.Item>
-          <Nav.Link eventKey="link-0" >Всё</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey="link-1">Торты </Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey="link-2">Бенто торт</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey="link-3">Чизкейки</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey="link-4">Капкейки</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey="link-5">Пироженое</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey="link-6">Кэнди бар</Nav.Link>
-        </Nav.Item>
+      <Button variant="primary">Всё</Button>{' '}
+      <Button variant="secondary">Торты</Button>{' '}
+      <Button variant="success">Бенто торт</Button>{' '}
+      <Button variant="warning">Чизкейки</Button>{' '}
+      <Button variant="danger">Капкейки</Button>{' '}
+      <Button variant="info">Пироженое</Button>{' '}
+      <Button variant="light">Кэнди бар</Button>{' '}
 
-      </Nav>
+
+
 
 
 

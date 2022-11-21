@@ -6,6 +6,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 import CardCake from './components/cardCake';
+import PageInfo from './components/pageInfo';
+import NavBar from './components/navBar';
+
 
 
 
@@ -24,13 +27,7 @@ function App() {
 
 
       <div className='NavBar'>
-        <div> Всё</div>
-        <div> Торты</div>
-        <div> Бенто торт</div>
-        <div> Чизкейки</div>
-        <div> Капкейки</div>
-        <div> Пироженое</div>
-        <div> Кэнди бар</div>
+        <NavBar />
 
       </div>
 
@@ -38,6 +35,7 @@ function App() {
       <div className='Content'>
 
         <CardCake modalShow={modalShow} setModalShow={setModalShow} />
+        {/* <PageInfo /> */}
 
       </div>
 

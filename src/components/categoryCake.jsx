@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Button from 'react-bootstrap/Button';
-function NavBar(props) {
+function CategoryCake(props) {
   return (
     <>
       <Button variant="primary">Всё</Button>{' '}
@@ -21,4 +21,4 @@ function NavBar(props) {
   );
 }
 
-export default NavBar;
+export default CategoryCake;

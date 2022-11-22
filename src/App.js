@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import CardCake from './components/cardCake';
 import PageInfo from './components/pageInfo';
-import NavBar from './components/navBar';
+import CategoryCake from './components/categoryCake';
 
 
 
@@ -27,7 +27,7 @@ function App() {
 
 
       <div className='NavBar'>
-        <NavBar />
+        <CategoryCake />
 
       </div>
 

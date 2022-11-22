@@ -3,11 +3,14 @@
     {
       "id": "1",
       "imageCard": "",
-      "name": "",
+      "cardTitle": "",
+      "cardText": "",
       "category": "0",
       "rating": "",
-      "imageCarousel-1":"",
-      "imageCarousel-2":""
+      "imageCarouselOne":"",
+      "imageCarouselTwo":"",
+      "carouselTextOne":"",
+      "carouselTextTwo":""
     }
   ]
 }

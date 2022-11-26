@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import CardCake from './components/cardCake';
 import PageInfo from './components/pageInfo';
 import CategoryCake from './components/categoryCake';
-import Page404 from './components/page404';
+import Page404 from './components/page404/page404';
 
 
 

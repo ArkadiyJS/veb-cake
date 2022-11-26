@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import s from './page404.module.css'
+
 function Page404(props) {
   return (
     <div className={s.container}>

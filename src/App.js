@@ -1,10 +1,11 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CardCake from './components/cardCake';
 import PageInfo from './components/pageInfo';
 import CategoryCake from './components/categoryCake';
 import Page404 from './components/page404/page404';
 import { NavLink, Route, Routes } from 'react-router-dom';
+import axios from "axios";
 
 
 
@@ -13,7 +14,6 @@ import { NavLink, Route, Routes } from 'react-router-dom';
 function App() {
 
   const [modalShow, setModalShow] = useState(false);
-
 
 
 
@@ -39,9 +39,10 @@ function App() {
       <div className='Content'>
 
 
+
         <Routes>
 
-          <Route path='/' element={<CardCake modalShow={modalShow} setModalShow={setModalShow} />} />
+          <Route path='/' element={<CardCake />} />
 
           <Route path='/info' element={<PageInfo />} />
 

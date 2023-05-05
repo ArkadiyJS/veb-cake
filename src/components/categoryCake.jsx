@@ -12,11 +12,6 @@ function CategoryCake(props) {
       <Button variant="info">Пироженое</Button>{' '}
       <Button variant="light">Кэнди бар</Button>{' '}
 
-
-
-
-
-
     </>
   );
 }

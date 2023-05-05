@@ -1,11 +1,12 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import CardCake from './components/cardCake';
+
 import PageInfo from './components/pageInfo';
 import CategoryCake from './components/categoryCake';
 import Page404 from './components/page404/page404';
 import { NavLink, Route, Routes } from 'react-router-dom';
-import axios from "axios";
+import CakeElement from './components/cakeElement';
+
 
 
 
@@ -42,7 +43,7 @@ function App() {
 
         <Routes>
 
-          <Route path='/' element={<CardCake />} />
+          <Route path='/' element={<CakeElement modalShow={modalShow} setModalShow={setModalShow} />} />
 
           <Route path='/info' element={<PageInfo />} />
 

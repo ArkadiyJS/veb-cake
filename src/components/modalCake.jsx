@@ -18,7 +18,7 @@ function ModalCake(props) {
       </Modal.Header>
       <Modal.Body>
 
-        <CarouselCake />
+        <CarouselCake  {...props} />
 
       </Modal.Body>
       <Modal.Footer>

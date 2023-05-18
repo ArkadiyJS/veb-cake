@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 import PageInfo from './components/pageInfo';
 import CategoryCake from './components/categoryCake';
 import Page404 from './components/page404/page404';
@@ -43,7 +42,7 @@ function App() {
 
         <Routes>
 
-          <Route path='/' element={<CakeElement modalShow={modalShow} setModalShow={setModalShow} />} />
+          {/* <Route path='/' element={<CakeElement modalShow={modalShow} setModalShow={setModalShow} />} /> */}
 
           <Route path='/info' element={<PageInfo />} />
 

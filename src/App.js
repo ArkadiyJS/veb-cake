@@ -4,7 +4,7 @@ import PageInfo from './components/pageInfo';
 import CategoryCake from './components/categoryCake';
 import Page404 from './components/page404/page404';
 import { NavLink, Route, Routes } from 'react-router-dom';
-import CakeElement from './components/cakeElement';
+
 
 
 

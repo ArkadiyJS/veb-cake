@@ -4,6 +4,7 @@ import Button from 'react-bootstrap/Button';
 function CategoryCake(props) {
   return (
     <>
+      {/*  переделать кнопки */}
       <Button variant="primary">Всё</Button>{' '}
       <Button variant="secondary">Торты</Button>{' '}
       <Button variant="success">Бенто торт</Button>{' '}

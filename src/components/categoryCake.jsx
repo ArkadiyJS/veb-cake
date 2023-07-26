@@ -3,7 +3,7 @@ import React from 'react';
 import Button from 'react-bootstrap/Button';
 function CategoryCake(props) {
   return (
-    <>
+    <div className='Cate'>
       {/*  переделать кнопки */}
       <Button variant="primary">Всё</Button>{' '}
       <Button variant="secondary">Торты</Button>{' '}
@@ -13,7 +13,7 @@ function CategoryCake(props) {
       <Button variant="info">Пироженое</Button>{' '}
       <Button variant="light">Кэнди бар</Button>{' '}
 
-    </>
+    </div>
   );
 }
 

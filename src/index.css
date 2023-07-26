@@ -27,8 +27,8 @@ code {
   height: 100%;
   grid-template-areas:
     'h h'
-    'n n'
-    'c c'
+    'n c'
+
   ;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 200px 100px 1fr;
@@ -46,11 +46,20 @@ code {
 .NavBar {
   grid-area: n;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-template-rows: 50px;
+
 }
 
 .Header {
 
   grid-area: h;
+}
+
+.Cate {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px;
+  row-gap: 5px;
+
 }

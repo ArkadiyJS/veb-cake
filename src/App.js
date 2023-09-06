@@ -23,6 +23,7 @@ function App() {
 
       <div className='Header'>
 
+
         <NavLink to='/info'>как заказать?</NavLink>
         header info
 

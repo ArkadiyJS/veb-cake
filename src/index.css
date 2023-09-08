@@ -23,15 +23,16 @@ code {
   display: grid;
   max-width: 1200px;
   margin: 0 auto;
-  background-color: rgb(225, 231, 237, 0.75);
+
   height: 100%;
   grid-template-areas:
-    'h h'
-    'n c'
+    'n n'
+
+    'c c'
 
   ;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 200px 100px 1fr;
+  grid-template-rows: 50px 100px 1fr;
 }
 
 
@@ -51,9 +52,14 @@ code {
 
 }
 
+
 .Header {
 
   grid-area: h;
+}
+
+.Header img {
+  height: 300px;
 }
 
 .Cate {

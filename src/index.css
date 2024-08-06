@@ -1,31 +1,90 @@
 @media screen and (max-width: 320px) {
 
   /* / стили для экранов шириной до 320px / */
-  body {
-    background-color: gray;
+  .App {
+
+    max-width: 321px;
+    margin: 0 auto;
+    display: grid;
+    row-gap: 10px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
   }
 }
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
   /* / стили для экранов шириной от 321px до 768px / */
 
-  body {
-    background-color: #111;
+  .App {
+
+    max-width: 321px;
+    margin: 0 auto;
+    display: grid;
+    row-gap: 10px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+
   }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
 
   /* / стили для экранов шириной от 769px до 1024px / */
-  body {
-    background-color: #4e61ab;
+  .App {
+
+    max-width: 769px;
+    margin: 0 auto;
+    display: grid;
+    row-gap: 10px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+
   }
 }
 
 @media screen and (min-width: 1025px) {
 
   /* / стили для экранов шириной 1025px и больше / */
-  body {
-    background-color: #eb8b31;
+  .App {
+    max-width: 1025px;
+    margin: 0 auto;
+    display: grid;
+    row-gap: 10px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+
+
   }
+}
+
+@media screen and (min-width: 1250px) {
+
+  /* / стили для экранов шириной 1250px и больше / */
+  .App {
+    max-width: 1250px;
+    margin: 0 auto;
+    display: grid;
+    row-gap: 10px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+}
+
+body {
+  height: 100%;
+  background-image: url(../public/bgCake.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
